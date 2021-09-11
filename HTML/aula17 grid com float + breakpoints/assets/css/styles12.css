@@ -1,0 +1,154 @@
+/* 
+responsivo 
+
+breakpoints
+
+comando mais básico::after
+
+@media all and (min-width: ) and (max-width: ) {
+
+    .class{  }
+
+}
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.MENU {
+    width: 100%;
+    position: fixed;
+    background-color: black;
+}
+
+
+
+.grid {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid::after{
+    content: "";
+    display: block;
+    clear: both;
+
+
+}
+
+
+.grid .colunas{
+    height: 300px;
+    width: 33.33%;
+    float: left;
+    padding: 20px;
+}
+
+.conteudo {
+    background-color: red;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 0px) and (max-width: 768px) {
+
+    .grid .colunas{
+    height: 250px;
+    width: 100%;
+    }
+
+
+}
+
+@media all and (min-width: 769px) and (max-width: 1200px) {
+
+    .grid .colunas{
+    height: 270px;
+    width: 50%;
+    }
+
+
+}
+
+@media all and (min-width: 1200px) and (max-width: 2160px) {
+
+    .grid .colunas{
+    height: 300px;
+    width: 33.33%;
+    }
+
+
+}

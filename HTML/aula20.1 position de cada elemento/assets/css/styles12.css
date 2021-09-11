@@ -1,0 +1,180 @@
+/* 
+
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+     
+.itemC{
+
+    display: flex;
+    justify-content: space-around; 
+    align-items: flex-start;
+    background-color: rgba(99, 99, 99, 0.767);
+    height: 400px;
+   
+}
+
+.itemF{
+    background-color: rgb(184, 11, 11);
+    
+
+
+}
+
+
+/* .itemF:nth-child( ) {    alinhar somente algum elemento em especificos
+    background-color: rgb(20, 2, 20);
+    color: #fff;
+    align-self:flex-end; */
+    
+
+
+
+.itemF:nth-child(3) {
+    background-color: darkmagenta;
+    color: #fff;
+    align-self: stretch;
+}
+
+.itemF:nth-child(1) {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    align-self:flex-end; }
+
+
+ .itemF:nth-child(5) {
+    background-color: rgb(214, 9, 9);
+    color: #fff;
+    align-self:center; }
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 0px) and (max-width: 768px) {
+
+    .grid .colunas{
+    
+    width: 100%;
+    }
+
+
+}
+
+@media all and (min-width: 769px) and (max-width: 1200px) {
+
+    .grid .colunas{
+    
+    width: 50%;
+    }
+
+
+}
+
+@media all and (min-width: 1200px) and (max-width: 2160px) {
+
+    .grid .colunas{
+    
+
+    width: 33.33%;
+    }
+
+
+}

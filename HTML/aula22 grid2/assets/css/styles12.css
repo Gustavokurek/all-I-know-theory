@@ -1,0 +1,103 @@
+/* 
+
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.contain {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid {
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 80px 1fr auto ;
+    grid-template-columns: 20% auto ;
+    gap: 10px;
+    grid-template-areas: 'cabeçalho cabeçalho' 'nav main' 'rodapé rodapé' ;
+}
+
+.grid div:nth-child(1){
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    grid-area: cabeçalho;
+    background-color: rgb(252, 94, 252);
+}
+
+.grid div:nth-child(2){
+    display: flex;
+    grid-area: nav;
+    
+    
+}
+
+.grid div nav.aaa {
+    display: flex;
+    width: 100%;
+    
+}
+
+.grid div nav ul{
+    background-color: rgb(173, 30, 173);
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left; 
+    
+}
+
+.grid div nav ul li{
+    padding: 20px;
+    text-transform: uppercase;
+
+}
+
+
+
+.grid div:nth-child(3){
+    grid-area: main;
+    background-color: rgb(49, 3, 43);
+    text-align: justify;
+}
+
+.grid div:nth-child(4){
+    grid-area: rodapé;
+    background-color: rgb(252, 94, 252);
+    color:whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+
+.grid {
+    display: grid;
+    grid-template-rows:  auto ;
+    grid-template-columns:  auto ;
+    grid-template-areas: 'cabeçalho' 'nav'  'main' 'rodapé' ;
+}
+}
+   

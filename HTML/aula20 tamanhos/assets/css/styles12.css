@@ -1,0 +1,163 @@
+/* 
+
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+     
+.itemC{
+
+    display: flex;
+    justify-content: space-between ; 
+    flex-flow: row wrap;
+    background-color: rgb(190, 172, 172);
+   
+}
+
+.itemF{
+
+    background-color: rgb(184, 11, 11);
+
+     /*  flex-grow: 1  permite que o espaço vazio seja alocado na msm proporção; 
+     flex-shrink: 1  permite ou não que o conteúdo seja dimunuido;
+     flex-basis: 320px tamanho de largura miníma para cada elemento ;
+     */
+
+     flex: 1 1 260px ; /*  atalho */
+     height: 200px;
+     margin: 2px;
+   
+}
+
+.itemF:nth-child() {
+    background-color: darkmagenta;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 0px) and (max-width: 768px) {
+
+    .grid .colunas{
+    
+    width: 100%;
+    }
+
+
+}
+
+@media all and (min-width: 769px) and (max-width: 1200px) {
+
+    .grid .colunas{
+    
+    width: 50%;
+    }
+
+
+}
+
+@media all and (min-width: 1200px) and (max-width: 2160px) {
+
+    .grid .colunas{
+    
+
+    width: 33.33%;
+    }
+
+
+}

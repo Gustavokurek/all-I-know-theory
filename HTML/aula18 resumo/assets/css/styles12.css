@@ -1,0 +1,179 @@
+/* 
+
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+
+
+.MENU {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    justify-content:left;
+}
+
+.MENU ul {
+    display: flex;
+    list-style: none;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.MENU ul li a {
+    display: block;
+    padding: 10px;
+    font-size: 15px;
+    color: blanchedalmond;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.MENU ul li a:hover {
+    background-color: rgb(230, 11, 11);
+    border-radius: 15px;
+
+}
+
+
+
+.grid {
+    max-width: 1200px;
+    padding: 0 15px;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+.grid::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.grid .colunas{
+    height:389.95px; 
+    width: 33.33%;
+    float: left;
+    padding: 20px;
+}
+
+.conteudo {
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    /* border-radius: 50%; serve para bordas arredondadas ou criar circulo */
+    box-shadow: -10px -5px 5px 10px rgba(255, 255, 0, 0.377); 
+}
+
+
+
+
+.meio {
+    width: 100%;
+    background-color: gray;
+    height: 100vh;
+}
+
+.meio1 {
+    max-width: 1200px;
+    padding: 0 35px;
+    padding-top: 60px;
+    margin: 0 auto;
+}
+  
+
+
+
+.fim {
+    width: 100%;
+    background-color: rgb(171, 24, 201);
+    height: 100vh;
+}
+
+.fim1 {
+    max-width: 1200px;
+    padding: 0 35px;
+    padding-top: 60px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 0px) and (max-width: 768px) {
+
+    .grid .colunas{
+    
+    width: 100%;
+    }
+
+
+}
+
+@media all and (min-width: 769px) and (max-width: 1200px) {
+
+    .grid .colunas{
+    
+    width: 50%;
+    }
+
+
+}
+
+@media all and (min-width: 1200px) and (max-width: 2160px) {
+
+    .grid .colunas{
+    
+
+    width: 33.33%;
+    }
+
+
+}

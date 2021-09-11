@@ -1,0 +1,9 @@
+body{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+
+}

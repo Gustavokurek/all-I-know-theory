@@ -1,0 +1,10 @@
+  const nome = prompt('Digite seu nome completo:');
+  document.body.innerHTML += `Seu nome é: <strong>${nome}</strong><br />`;
+  document.body.innerHTML += `Seu nome tem <strong>${nome.length}</strong> letras <br />`; // .length mostra quantos caracteres tem minha resposta
+  document.body.innerHTML += `A segunda letra do seu nome é: <strong>${nome[1]}</strong><br/>`; // mostra o caractere que está em um indice dejado pode usar tbm ${nome.charAt(1)} para isso
+  document.body.innerHTML += `Qual o primeiro índice da letra G no seu nome? <strong>${nome.toLocaleUpperCase().indexOf('G')}</strong><br />`; // procura o index de algum caractere desejado
+  document.body.innerHTML += `Qual o último índice da letra LETRA no seu nome? <strong>${nome.lastIndexOf('u')}</strong><br />`; // procura o index de trás para frante
+  document.body.innerHTML += `As últimas 3 letras do seu nome são: <strong>${nome.slice(-3)}</strong><br />`; // puxa as ultimas letras
+  document.body.innerHTML += `As palavras do seu nome são: <strong>${nome.split('  ')}</strong><br />`; //array que mostra todas as palavras 
+  document.body.innerHTML += `Seu nome com letras maiúsculas: <strong>${nome.toUpperCase()}</strong><br />`; // tranforma texto em maiusculo
+  document.body.innerHTML += `Seu nome com letras minúsculas: <strong>${nome.toLowerCase()}</strong><br />`; // tranforma texto em minusculo

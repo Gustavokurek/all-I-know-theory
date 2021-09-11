@@ -1,0 +1,38 @@
+/* 
+  float
+  grid
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    margin: 20px;
+}
+
+.grid::after{
+    content: "";
+    display: block;
+    clear: both;
+
+
+}
+
+
+.grid .colunas{
+    height: 300px;
+    width: 33.33%;
+    float: left;
+    padding: 20px;
+}
+
+.conteudo {
+    background-color: red;
+    height: 100%;
+    width: 100%;
+
+}

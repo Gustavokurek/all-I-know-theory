@@ -1,0 +1,99 @@
+/* 
+  position: relative; comporta como se o elemento ainda estivesse no msm lugar porém não altera a posição dos outros
+
+  position absolute: altera a camada e altera o posicionamento dos outros
+
+  position fixed: fica fixo na pagina não muda com o movimento 
+
+  position: stick slá
+
+  position: static normal não faz nada nem muda posição com comandos top, left, r , b
+
+  top: move em relação ao topo para baixo
+  button move em relação ao fundo para cima
+  left movere em relação a esquerda para direita
+  right move em relação a direita para esquerda
+
+  z index: controle de camadas
+
+}
+
+exemplo abaixo
+
+
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+section{
+  width: 100%;
+  height: 100%;
+}
+
+.a {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(0, 255, 255);
+  position:absolute;
+  top: 30px;
+  left: 60px;
+  z-index: 12;
+
+}
+
+.b {
+  width: 600px;
+  height: 900px;
+  background-color: rgba(0, 0, 0, 0.753);
+  margin: 10px 0;
+  position: fixed;
+  top: 50px;
+  right: 50px;
+}
+
+ ul{
+ 
+  height: 50%;
+  overflow-y: auto;
+
+}
+
+ul li.fix{
+  position: sticky;
+  background-color: pink;
+  top: 0;
+}
+.c {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: rgb(137, 43, 226);
+  z-index: 62;
+}
+
+ .d{
+
+   position: absolute; 
+   top: 5px;
+   left: 0;
+   color: antiquewhite;
+   z-index: 5;;
+}
+
+p {
+
+  float: left;
+}
+
+.e {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  position: absolute;
+  z-index: 5222;
+}
+

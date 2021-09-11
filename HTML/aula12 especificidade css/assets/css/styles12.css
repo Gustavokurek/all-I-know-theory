@@ -1,0 +1,18 @@
+/*especificidade css 
+
+especificidade id   class pseudoclass    elementos pseudoelementos
+empate o ultimo elemento será o aplicado
+style  especificidade maior pq será aplicado diretamenta
+!important  excessões pq muda propriedadade do navegador
+
+*/
+
+#torque {
+    background-color: rgb(17, 155, 165);
+}
+
+.c  {
+    text-transform: uppercase;
+    background-color: crimson !important;
+    
+}

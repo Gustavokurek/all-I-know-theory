@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="Pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imputs</title>
+
+    <style>
+        body{ font-family:  sans-serif;}
+
+        label{
+            cursor: pointer;
+            
+        }
+
+    </style>
+
+
+</head>
+
+<Form action="#" method="GET" target="_blank" 
+autocomplete="off">
+
+    <p> meu formulário </p>
+
+    <p> 
+        <b> <b>  imput type = text; abrir uma caixa de texto </b> <br>
+        </b>
+        <label for="nome"> Nome:</label>
+        <input type="text" id="nome" name="nome" 
+        placeholder="Seu nome" required>
+       
+    </p>
+
+
+    <p>
+        <b> <b>  imput type = checkbox; é uma caixa para marcar ou não </b> <br>
+        </b>
+    <label for="dev"> sou dev </label>
+        <input type="checkbox" id="dev" value="sim" >
+    <label for="naodev"> não sou dev </label>
+        <input type="checkbox" id="naodev" value="nao" >
+    <label for="quase"> quero ser dev </label>
+        <input type="checkbox" id="quase" value="nao" >
+
+    </p>
+
+    <p>
+        <b>  imput type = radio; é uma checkbox mas só permite marcar só um campo <br> </b>
+      
+          <label for="dev"> sou dev </label>
+          <input type="radio" id="dev" value="sim" name="devv" >
+          <label for="naodev"> não sou dev </label>
+          <input type="radio" id="naodev" value="não" name="devv">
+          <label for="quase"> quero ser dev </label>
+          <input type="radio" id="quase" value="quase" name="devv" >
+
+    </p>
+
+
+    <p>
+
+        <b>  imput type = date; para selecionar data      <br> </b>
+       
+        <label for=" date "> selecione a data de nascimento  </label>
+        <input type="date" id=" date " value=" " name=" date " >
+    
+
+    </p>
+
+         <b>   imput type = datetime ; para selecionar data e horário      <br> </b>
+       
+         <label for=" datetime "> selecione a data de nascimento  </label>
+         <input type="datetime-local" id=" datetime " 
+         value=" " name=" datetime " >
+    
+    </p>
+
+    <p>
+       
+         <b>  imput type = time ; para selecionar horário  <br> </b>
+      
+         <label for=" time "> selecione a data de nascimento  </label>
+         <input type="time" id=" time " 
+         value=" " name="time" >
+    
+    </p>
+
+
+    <p>
+       
+        <b>  imput type = color ; para selecionar alguma cor  <br> </b>
+      
+             <label for=" color "> selecione sua cor favorita  </label>
+             <input type="color" id=" color " 
+             value="#FF0000" name="color" >
+        
+    </p>
+
+
+    <p>
+       
+            <b>  imput type = email ; para selecionar email  <br> </b>
+             
+                <label for=" email "> digite seu email  </label>
+                <input type="email" id=" email " 
+                value=" " name="email" placeholder=" EX: email.@email.com">
+            
+    </p>
+
+
+
+    <p>
+
+            <b>  imput type = file ; para selecionar algum arquivo  <br> </b>
+        
+            <label for=" file "> selcione algum arquivo </label>
+            <input type="file" id=" file " 
+             name="file" accept=" ">
+            
+    </p>
+
+
+
+    <p>
+        
+            <b>  imput type = number ; para selecionar algum numero ex: idade  <br> </b>
+        
+             <label for=" number "> qual a sua idade </label>
+             <input type="number" min="0" max="130" id=" number " 
+             value=" " name=" number " placeholder=" idade"
+             >
+   </p>
+
+
+
+   <p>
+        
+              <b>  imput type = password ; para selecionar senha  <br> </b>
+
+                <label for=" senha "> digite sua senha  </label>
+                <input type="password"  id=" senha " 
+                name=" senha " placeholder=" digite sua senha "      >
+
+     <p>
+        
+        <b>  imput type = range ; selecionar algum volume  <br> </b>
+    
+         <label for=" range "> range </label>
+         <input type="range" min="0" max="130" id=" range " 
+          name=" range " 
+         >
+
+    <p>
+        
+            <b>  imput type = url ; para selecionar alguma url  <br> </b>
+        
+             <label for=" url "> qual o seu site </label>
+             <input type="url" id=" url " 
+              name=" url " placeholder=" url.com"
+             >
+
+
+     </p>
+
+     <p>
+        
+        <b>  imput type = search ; para selecionar uma barra de pesquisa ex: idade  <br> </b>
+    
+         <label for=" search "> Pesquise </label>
+         <input type="search" id=" search " 
+          name=" search " placeholder=" search "
+         >
+    </p>
+
+    <p>
+        <b> parar criar um selecione </b> <br>
+        <label for="select">selecione seu time </label>
+        <select name="select" id="select">
+           
+            <option value="sao Paulo" label="são Paulo">           
+            <option value="corinthins" label="corinthins">
+            <option value="santos" label="santos">
+            <option value="flamengo" label="flamengo">
+
+
+        </select>
+        
+    </p>
+
+    <p>
+        <b> parar criar uma area de texto </b> <br>
+        <label for="textarea"> Area para texto</label> <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+
+</p>
+
+
+    <p>
+        <button type="submit"> enviar </button>
+        <button type="reset"> reset </button>
+        
+    </p>
+
+
+</Form>
+
+
+<body>
+    
+</body>
+</html>

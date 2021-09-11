@@ -1,0 +1,46 @@
+/* 
+
+comandos para modificar o contéudo
+    width: ; largura
+    height: ; altura
+    max-width: ; largura maxima
+    max-height: ; Altura maxima
+    min-height: ; altura minima
+    max-width: ; largura minima
+    overflow: auto; se caso o conteudo for maior que o bloco, sera adicionado uma barra para descer
+    margin: ; usado para separar um elemento de outro
+    padding: ; enchimento
+    border: ; borda
+
+
+    box-sizing= content box  tamanho real vai ser o tamanho do conteudo + padding + borda
+    box-sizing= padding box tamanho do enchimento é adicionado ao contéudo
+    box-sixing= border box tamanho imposto será para tudo ao controlar
+    display- blocl bloco 
+
+*/
+
+html, body {
+    height: 100%;
+}
+
+.AA {
+
+    box-sizing: border-box;
+    width:100%;
+    height:100%;
+    max-width:1000px;
+    max-height:1000px ;
+    min-height: 0 ;
+    min-width:0;
+    overflow:auto;
+    margin:10px auto;
+    padding: 30px 50px;
+    border: 1px solid black;
+
+
+    background-color: rgb(17, 165, 116);
+
+
+
+}

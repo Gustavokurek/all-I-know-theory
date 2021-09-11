@@ -1,0 +1,1 @@
+Este é meu primeiro modelo de Landing page, fiz para praticar meu HTML e CSS.
