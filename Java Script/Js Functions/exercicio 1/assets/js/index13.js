@@ -61,11 +61,10 @@ function getCalculator(){
 
          try{
              conta=eval(conta);
-             if(!conta){
-                 alert('conta inválida')
-                 return
-             }
-
+            if (Number.isNaN(conta) || typeof conta !== 'number') {
+            alert('Conta inválida');
+            return;
+            }
              this.display.value=String(conta);
          } catch(e){
              alert('conta inválida')
