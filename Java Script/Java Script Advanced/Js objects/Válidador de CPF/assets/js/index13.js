@@ -40,12 +40,6 @@ ValidaCpf.prototype.Validação=function(){
     return  alert('CPF Inválido')
 }
 
-
-
-
-
-
-
 ValidaCpf.prototype.criaDigito=function(CpfParcial){
     const cpfArray=Array.from(CpfParcial)
     let contagem=cpfArray.length + 1;
@@ -73,7 +67,6 @@ ValidaCpf.prototype.criaDigito=function(CpfParcial){
 ValidaCpf.prototype.isSequencia=function(){
     return this.CpfReal[0].repeat(this.CpfReal.length)
 }
-
 
 
 const Cpf= new ValidaCpf();
