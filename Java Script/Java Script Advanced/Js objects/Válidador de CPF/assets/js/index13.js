@@ -1,5 +1,5 @@
 function  ValidaCpf(Cpf){
-let cpfReal1;
+let cpfReal1=Cpf;
     Object.defineProperty(this, 'CpfReal',{
         enumerable: true,
         get: function() {
