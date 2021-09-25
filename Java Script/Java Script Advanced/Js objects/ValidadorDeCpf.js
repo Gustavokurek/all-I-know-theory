@@ -1,25 +1,21 @@
-let Cpf='611.697.600-07';
+let Cpf='052-857-289-64';
 let CpfReal=Cpf.replace(/\D/g, '')
 const cpfArray= Array.from(CpfReal)
 const cpfParaValidar=[...cpfArray]
 cpfParaValidar.splice(9,2)
-let contador11=11
-let contador10=10
 
-const MultiSoma=(Array)=>Array.reduce((ac,valor)=>{
-    if(cpfParaValidar.length===9){
-    ac.push(Number(valor)*contador10);
-    contador10--;
-    return ac
-}
 
-    else{
-    ac.push(Number(valor)*contador11);
-    contador11--;
-    return ac
-    };
+const MultiSoma=function(CpfParcial){
+    const cpfArray=[...CpfParcial]
+    let contagem=cpfArray.length + 1;;
+    const total= cpfArray.reduce((ac,valor)=>{
+    ac.push(Number(valor)*contagem);
+    contagem--;
+    return ac;
    
 },[]).reduce((ac, valor)=> ac+=valor);
+ return total
+}
 
 const desfragmentar=(numero)=> 11 - numero%11 < 9 ? 11 - numero%11 : 0;
 const juntar=(numero)=> cpfParaValidar.push(String(numero)); 
