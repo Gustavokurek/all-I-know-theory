@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+:root{
+--primary-color: rgb(255, 255, 255);
+--secundary-color: #862bc4;
+}
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+    text-transform: uppercase;
+}
+
+body{
+    font-family: 'Open sans', sans-serif;
+    margin: 0 ;
+    padding: 0;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    background-color: var(--secundary-color);
+    background-image: url(https://svgsilh.com/svg/153562.svg);
+    background-position: center;
+    
+}
+
+.conteiner{
+    width: 600px;
+    margin: 45px auto;
+    background-color: var(--primary-color);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--secundary-color);
+
+
+}
+
+.form, input, label, button {
+    position: relative;
+    
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.form input{
+    font-size: 20px;
+    height: 40px;
+    padding: 0 20px;
+    border: 1px solid;
+
+}
+
+.form input:focus {
+    outline: 1.2px solid var(--secundary-color);
+}
+    
+    
+
+button {
+    border: none;
+    background-color: var(--secundary-color);
+    color: #fff;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 27px;
+}
+
+form button:hover {
+    background: var(--primary-color-darker);
+    border: 1px solid var(--secundary-color);
+    color: var(--secundary-color);
+    
+}
+
+.conteiner h1{
+    font-size: 2em;
+    text-align: center;
+}
+
+.resultado{
+    text-align: center;
+    color: green;
+    font-size: 1.5em;
+    font-weight: 700;
+    word-spacing: 3px;
+}
+
+
