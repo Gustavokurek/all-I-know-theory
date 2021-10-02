@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+:root{
+--primary-color: rgb(255, 255, 255);
+--secundary-color: #862bc4;
+}
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    font-family: 'Open sans', sans-serif;
+    margin: 0 ;
+    padding: 0;
+    font-size: 1.3em;
+    line-height: 1.0em;
+    background-color: var(--secundary-color);
+    background-image: url(https://svgsilh.com/svg/153562.svg);
+    background-position: center;
+    
+}
+
+.conteiner{
+    display: block;
+    width: 600px;
+    margin: 45px auto;
+    background-color: var(--primary-color);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--secundary-color);
+
+
+}
+
+.conteiner h1{
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+
+}
+
+.opções{
+text-transform: uppercase;
+align-items: center;
+margin-top: 40px;
+padding-left: 70px;
+font-size: 0.74em;
+}
+
+
+
+input{
+    font-size: 15px;
+    border: 1px solid;
+
+}
+
+input[type="checkbox"]{
+    position: relative;
+    left: 10px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+
+.form input:focus {
+    outline: 1.2px solid var(--secundary-color);
+}
+    
+    
+
+button {
+    border: none;
+    background-color: var(--secundary-color);
+    color: #fff;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 10px;
+    position: relative;
+    left: 138px;
+}
+form button:hover {
+    background: var(--primary-color-darker);
+    border: 1px solid var(--secundary-color);
+    color: var(--secundary-color);
+    
+}
+
+
+
+.resultado{
+    font-size: 1.3em;
+    font-weight: 700;
+    word-spacing: 1px;
+    color: green;
+    text-align: center;
+    margin: 0 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.error{
+            display: flex;
+            justify-content: center;
+            color: red;
+            font-size: 1.3em;
+            font-weight: 700;
+            word-spacing: 1px;
+            text-align: center;
+            margin: 0 50px;
+    }
+
+
+

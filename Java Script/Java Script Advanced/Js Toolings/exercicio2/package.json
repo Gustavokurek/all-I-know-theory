@@ -1,0 +1,26 @@
+{
+  "name": "aulawebpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.55.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "core-js": "^3.18.1",
+    "css-loader": "^6.3.0",
+    "regenerator-runtime": "^0.13.9",
+    "style-loader": "^3.3.0"
+  }
+}
