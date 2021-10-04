@@ -4,6 +4,7 @@
 
 // importando tudo diretamente já, ira vir tudo dentro de um objeto
 import * as meumodulo from './modulo1'
+// para chamar função usar meumodulo. 
 
 // imporatando padrão/ pegara somente a default 
 import qualquer from './modulo1'
