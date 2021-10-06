@@ -1,0 +1,34 @@
+npm init -y = iniciar npm 
+npm install ... 
+//@ + versão se quiser uma versão expecifica
+// ^ permite a atualização de patch e minor
+// ~ permite só a atualização patch
+// -E para não atualizar nunca alguma dependencia
+
+npm update // para atualizar pacotes 
+
+npm install ... --save-dev  mudar para dependencia de desenvolvimento 
+
+npm install ... --save-prod // dependencia de produção 
+
+npm uninstall ... // desinstalar pacote
+npm ls // mostra todas dependencias instaladas
+
+npm ls --depth=0 mostra dependencia sem abrir pastas 
+
+
+npm outdated // verificar quais pacotes estão desatualizados
+
+
+
+
+versão:
+
+2.        1.     0
+major    minor   patch
+
+path: correção de erros
+
+minor: recurso novo sem quebrar compartibilidade
+
+major: pode quebrar a compatibilidade
