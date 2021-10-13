@@ -1,0 +1,2 @@
+Aula onde aprendi a usar o dot env para não mostrar dados proprios no caso do servidor do mongo &&
+aula onde aprendi a conectar a base de dados mongodb ao projeto
