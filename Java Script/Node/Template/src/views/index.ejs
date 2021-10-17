@@ -1,0 +1,21 @@
+<%- include('includes/head')  %> 
+
+<section  class="conteiner">
+       
+    <h1> 
+        <%- typeof titulo !== 'undefined'? titulo : "o titulo não foi enviadao" %>
+ 
+    </h1>
+
+    <form action="/" method="post">
+        <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+        <label>nome</label>
+        <input type="text" name="nome">
+        <button>Submit</button>
+      </form>
+ 
+   </section>
+
+   <%- include('includes/footer')  %> 
+
+
