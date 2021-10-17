@@ -1,0 +1,25 @@
+<%- include('includes/head')  %> 
+
+<section  class="conteiner">
+       
+    <h1> 
+        
+        <%- typeof titulo !== 'undefined'? titulo : "o titulo não foi enviadao" %>
+        
+        <% numeros.forEach(num=>{ %> 
+            <%= num*10 %> 
+       <% }) %> 
+
+    </h1>
+
+    <form action="/" method="post">
+    <label>nome</label>
+    <input type="text" name="nome">
+
+    <button>submit</button>
+    </form>
+ 
+   </section>
+
+   <%- include('includes/footer')  %> 
+
