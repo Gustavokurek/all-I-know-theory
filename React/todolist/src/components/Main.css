@@ -1,0 +1,84 @@
+/* Color Theme Swatches in Hex */
+.Design-gráfico-1-hex { color: #F077F2; }
+.Design-gráfico-2-hex { color: #EAF205; }
+.Design-gráfico-3-hex { color: #F2E205; }
+.Design-gráfico-4-hex { color: #D9967E; }
+.Design-gráfico-5-hex { color: #0D0D0D; }
+
+.main{
+  background-color: #7a7a7a ;
+  padding: 30px;
+  max-width: 500px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.267);
+  margin: 20px auto;
+}
+
+.main h1{
+  font-size: 20px;
+  text-align: center;
+}
+
+.form{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input[type='text']{
+  height: 40px;
+  padding: 0 20px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  min-width: 80%;
+}
+.form button[type='submit']{
+  border: none;
+  height: 40px;
+  width: 40px;
+  margin-left: 4px;
+  background-color: #F077F2;
+  color: #0D0D0D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form button[type='submit']:hover{
+  background-color: rgba(2, 255, 255, 0.644);
+  transition: all 600ms;
+}
+
+.tarefas{
+  margin-top: 30px;
+}
+
+.tarefas li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  transition: all 600ms;
+}
+
+.tarefas  li:hover{
+  background: rgba(2, 255, 255, 0.644);
+}
+.tarefas li .editEdit {
+  margin-right: 5px;
+  color: aqua;
+}
+
+.tarefas li .editClose {
+  color: #F077F2;
+
+}
+
+.tarefas  li:hover .editEdit,
+.tarefas  li:hover .editClose {
+  color: #0D0D0D;
+  cursor: pointer;
+  transition: all 600ms;
+
+}

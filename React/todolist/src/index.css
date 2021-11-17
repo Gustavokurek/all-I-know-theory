@@ -1,0 +1,22 @@
+/* Color Theme Swatches in Hex */
+.Design-gráfico-1-hex { color: #F077F2; }
+.Design-gráfico-2-hex { color: #EAF205; }
+.Design-gráfico-3-hex { color: #F2E205; }
+.Design-gráfico-4-hex { color: #D9967E; }
+.Design-gráfico-5-hex { color: #0D0D0D; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#0D0D0D ;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
