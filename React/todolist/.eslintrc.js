@@ -18,7 +18,9 @@ module.exports = {
   plugins: [
     'react',
   ],
-  rules: { 'react/jsx-filename-extension': 'off'
-  'eslintreact/state-in-constructor'= 0
-},
+  rules: {
+    'react/jsx-filename-extension': 'off',
+    'react/state-in-constructor': 'off',
+    'import/no-duplicates': 0,
+  },
 };
