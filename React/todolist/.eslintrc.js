@@ -22,5 +22,7 @@ module.exports = {
     'react/jsx-filename-extension': 'off',
     'react/state-in-constructor': 'off',
     'import/no-duplicates': 0,
+    'react/function-component-definition': 0,
+    'react/forbid-prop-types': 0,
   },
 };
