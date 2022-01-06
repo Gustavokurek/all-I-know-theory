@@ -2,7 +2,7 @@ import React from 'react';
 import { Conteiner } from '../../styles/GlobalStyles';
 import { Title, Para } from './styled';
 
-export default function login() {
+const Login = function login() {
   return (
     <Conteiner>
       <Title>
@@ -13,4 +13,6 @@ export default function login() {
       <button type="button">enviar</button>
     </Conteiner>
   );
-}
+};
+
+export default Login;
