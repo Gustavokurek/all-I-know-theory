@@ -1,13 +1,15 @@
 import React from 'react';
 import Login from './pages/login';
-import GlobalStyles, { Conteiner } from './styles/GlobalStyles';
+import GlobalStyles from './styles/GlobalStyles';
+import Header from './components/header';
 
 const App = function app() {
   return (
-    <Conteiner>
+    <>
+      <Header />
       <GlobalStyles />
       <Login />
-    </Conteiner>
+    </>
   );
 };
 
