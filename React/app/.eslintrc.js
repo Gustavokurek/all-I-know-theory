@@ -23,7 +23,7 @@ module.exports = {
     'no-unused-vars': 0,
     'prettier/prettier': 'error',
     'react/react-in-jsx-scope': 0,
-    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/rules-of-hooks': 0,
     'react-hooks/exhaustive-deps': 'warn',
     'react/jsx-filename-extension': 0,
     'import/prefer-default-export': 0,
