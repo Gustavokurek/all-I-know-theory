@@ -27,5 +27,6 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
     'react/jsx-filename-extension': 0,
     'import/prefer-default-export': 0,
+    'default-param-last': 0,
   },
 };
