@@ -1,4 +1,3 @@
-console.log("oi") 
-console.log("oi") 
+const nome= 'lucas'
 
-   
+console.log(nome)
