@@ -1,3 +1,2 @@
-const nome= 'lucas'
-
-console.log(nome)
+const nome = 'lucas';
+console.log(`'oi', ${nome}`);
