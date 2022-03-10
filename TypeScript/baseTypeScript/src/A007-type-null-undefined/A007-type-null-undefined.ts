@@ -17,7 +17,7 @@ export function CreatePerson(
   };
 }
 
-// usar quando vc quiser retornar um não valor, ou para quando vc não conseguir o valor desejado
+// usar quando vc quiser retornar um não valor, ou para quando vc não conseguir o valor  e não quiser q retorne um erro
 
 function squareOf(x: any) {
   if (typeof x === 'number') return x * x;
