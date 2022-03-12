@@ -8,6 +8,8 @@ const password2 = document.querySelector('.password2') as HTMLInputElement;
 const error = 'show-error-message';
 form.addEventListener('submit', function (e: Event) {
   e.preventDefault();
+  // cuidar com this somente, se a função for arrow vai ser o e this do escopo acima
+  // preferir usar função normal quando for usar this
   hideErrorText(this);
   checkEmptyField(username, email, password, password2);
   checkEmail(email);
