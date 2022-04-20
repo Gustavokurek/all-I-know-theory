@@ -1,3 +1,4 @@
+// inversão de dependência fazer algo depender de um contrato ao invés de algo concreto
 // associação é uma ligação entre classes fraca, em que elas não dependem necessariamente uma da outra
 export class Escritor {
   private _ferramenta: Ferramenta | null = null;
